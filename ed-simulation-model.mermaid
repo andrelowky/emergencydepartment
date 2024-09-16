@@ -1,0 +1,15 @@
+graph TD
+    A[Patient Arrival] --> B{Triage}
+    B -->|Less Urgent| C[Fast Track]
+    B -->|More Urgent| D[Main ED]
+    C --> E[Fast Track Treatment]
+    E --> F[Discharge Home]
+    D --> G[Main ED Treatment]
+    G --> H{Require Labs?}
+    H -->|Yes| I[Lab Tests]
+    I --> J[Continue Treatment]
+    H -->|No| J
+    J --> K{Disposition Decision}
+    K -->|Discharge| L[Discharge Home]
+    K -->|Admit| M[Wait for Bed]
+    M --> N[Transfer to Department]
