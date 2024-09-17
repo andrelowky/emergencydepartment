@@ -1,7 +1,9 @@
 # emergencydepartment
 
-## Installation
+## Installation and Running
 Create a conda environment with Python==3.11.7 and install the dependencies listed in requirements.txt.
+
+You can then run the Jupyter notebook.
 
 ## Write up
 The simulation model should consider the key components of triaging, treatments, lab tests, disposition, discharge and waiting/transfer to other department.
