@@ -1,5 +1,9 @@
 # emergencydepartment
 
+## Installation
+Create a conda environment with Python==3.11.7 and install the dependencies listed in requirements.txt.
+
+## Write up
 The simulation model should consider the key components of triaging, treatments, lab tests, disposition, discharge and waiting/transfer to other department.
 Parameters would include: patient arrival rates, probabilties and timings for each component, timings for moving between components, and resource availabilities of each component.
 
