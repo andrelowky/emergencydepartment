@@ -20,7 +20,7 @@ The simulation could also be expanded to account for complex and dynamic situati
 - changing flow rates for different patient types, e.g. having influx of high severity patients at certain times
 - considering patients that leave by themselves, or miss their queue number and need to be recalled
 
-For future work, it would be good to have historical data on patient arrival patterns by hour as well as the occurrences and timings for each of the componentss. We would also need to know the absolute resource capacity based on doctor/nurse staffing schedules and number of beds of different departments. For my simulation, I used very arbitary numbers and kept the overall volume and capacities small to make it laptop-friendly.
+For future work, it would be good to have historical data on patient arrival patterns by hour as well as the occurrences and timings for each of the components. We would also need to know the absolute resource capacity based on doctor/nurse staffing schedules and number of beds of different departments. For my simulation, I used very arbitary numbers and kept the overall volume and capacities small to make it laptop-friendly.
 
 It would be nice to set up Monte Carlo simulations considering normal distributions of the different parameters, and also to stress test the workflow given specific resource constraints to identify bottlenecks. The simulations could be benchmarked considering metrics such as utilization rate of resources, median and upper quartile of patient waiting times, and throughput of patients. I report the mean process and wait times for each component only.
 
